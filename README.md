@@ -5,10 +5,10 @@
 <p align="center">
   <img src="https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2020/05/Cats-Dogs-Classification-deep-learning.gif?raw=true" alt="readme crisp dm"/>
 </p>
+
 Source: [DataFlair](https://data-flair.training/)
 
 The goal of this project is to use a convolutional neural network (CNN) to determine cat and dog images. 
-
 How I proceeded exactly and what results I achieved can be read in my blog post: [Computer Vision - Convolutional Neural Network](https://michael-fuchs-python.netlify.app/2021/01/08/computer-vision-convolutional-neural-network/)
 
 
