@@ -122,6 +122,42 @@ Execute all remaining lines of code in the notebook.
 
 
 
+**Final Folder Structure**
+
+The final folder structure should now look like this:
+
+```
+C:.
+│   Computer Vision - CNN.ipynb
+│   preprocessing_CNN.py
+│
+├───cats
+├───cats_and_dogs
+│   ├───test
+│   │   ├───cats
+│   │   └───dogs
+│   ├───train
+│   │   ├───cats
+│   │   └───dogs
+│   └───validation
+│       ├───cats
+│       └───dogs
+├───ckpt_1_simple_CNN
+│       Cats_Dogs_CNN_4_Conv_F32_64_128_128_epoch_30.h5
+│       class_assignment_df_Cats_Dogs_CNN_4_Conv_F32_64_128_128_epoch_30.csv
+│       history_df_Cats_Dogs_CNN_4_Conv_F32_64_128_128_epoch_30.csv
+│
+├───ckpt_2_CNN_with_augm
+│       Cats_Dogs_CNN_4_Conv_F32_64_128_128_epoch_60_es.h5
+│       class_assignment_df_Cats_Dogs_CNN_4_Conv_F32_64_128_128_epoch_60_es.csv
+│       history_df_Cats_Dogs_CNN_4_Conv_F32_64_128_128_epoch_60_es.csv
+│       img_height.pkl
+│       img_width.pkl
+│
+├───dogs
+└───test_pictures
+```
+
 
 <a name="project_results"></a>
 
