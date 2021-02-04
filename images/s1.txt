@@ -1,7 +1,0 @@
-C:.
-│   Computer Vision - CNN.ipynb
-│   preprocessing_CNN.py
-│
-├───cats
-├───dogs
-└───test_pictures
