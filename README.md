@@ -19,7 +19,7 @@ How I proceeded exactly and what results I achieved can be read in my blog post:
 4. [Folder Structure](#folder_structure)
 5. [Running the Jupyter Notebook](#running_jpynb)
     1. [Execution of the preprocessing_CNN.py file](#running_preprocessing)
-    2. [Classify Dog Breeds](#classify_dog_breeds)
+    2. [Classify Cat Dog Images](#classify_cat_dog_images)
 6. [Project Results](#project_results)    
 7. [Authors](#authors)
 8. [Project Motivation](#motivation)
@@ -102,24 +102,25 @@ Here is the output of the function:
 ![result_py_file](images/result_py_file.png)
 
 
-<a name="classify_dog_breeds"></a>
+<a name="classify_cat_dog_images"></a>
 
-### Classify Dog Breeds
+### Classify Cat Dog Images
 
-I used transfer learning to create a convolutional neural network (CNN). I used this to determine the breed of dog from dog pictures. 
+Execute all remaining lines of code in the notebook.
 
-+ If a dog is recognised in the image supplied, the algorithm returns the corresponding breed:
+**Descriptive statistics**
 
-![pic_readme2](images/pic_readme2.png)
+![statistics1](images/statistics1.png)
 
-![pic_readme3](images/pic_readme3.png)
-
-+ If a human is recognised in the image provided, the algorithm returns the resembling dog breed:
-
-![pic_readme4](images/pic_readme4.png)
+![statistics2](images/statistics2.png)
 
 
-+ If neither a human nor a dog can be seen in the picture, the algorithm returns the following error message: "Error: Please input an image of a human or a dog."
+**Model Evaluation**
+
+![validation_plot](images/validation_plot.png)
+
+
+
 
 <a name="project_results"></a>
 
