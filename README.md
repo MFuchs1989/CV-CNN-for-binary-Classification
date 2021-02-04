@@ -32,7 +32,11 @@ How I proceeded exactly and what results I achieved can be read in my blog post:
 
 ## Introduction
 
-In the course of this nanodegree from Udacity, as part of the Capstone Project, I created a pipeline that can be used in a web or mobile app to process real images taken by users. Based on a picture of a dog, the algorithm I created can make an assessment about the dog breed. If supplied an image of a human, the code will identify the resembling dog breed.
+For this repository I wrote a preprocessing.py file which automatically randomizes the provided image data and divides it into a training, validation and test part. 
+This is followed by model training using a CNN. 
+The storage of the best model as well as the safeguarding of all important metrics during the model training is also fully automatic. 
+This is a best practice guideline on how to create a binary image classifier and bring it to production. 
+
 
 <a name="software_requirements"></a>
 
@@ -59,39 +63,12 @@ Please run ```pip install -r requirements.txt```
 
 ```
 C:.
-│   dog_app.ipynb
-│   extract_bottleneck_features.py
-│   README.md
-│   requirements.txt
+│   Computer Vision - CNN.ipynb
+│   preprocessing_CNN.py
 │
-├───bottleneck_features
-├───data
-│   ├───dog_images
-│   └───lfw
-├───haarcascades
-│       haarcascade_frontalface_alt.xml
-│
-├───images
-│       American_water_spaniel_00648.jpg
-│       border_collie.jpg
-│       Brittany_02625.jpg
-│       Curly-coated_retriever_03896.jpg
-│       dog_breed_main_pic.jpg
-│       german_shepherd_dog.jpg
-│       great_dane.jpg
-│       Labrador_retriever_06449.jpg
-│       Labrador_retriever_06455.jpg
-│       Labrador_retriever_06457.jpg
-│       man.jpg
-│       sample_cnn.png
-│       sample_dog_output.png
-│       sample_human_2.png
-│       sample_human_output.png
-│       Welsh_springer_spaniel_08203.jpg
-│       woman1.jpg
-│       woman2.jpg
-│
-└───saved_models
+├───cats
+├───dogs
+└───test_pictures
 ```
 
 
