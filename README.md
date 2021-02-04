@@ -15,10 +15,10 @@ How I proceeded exactly and what results I achieved can be read in my blog post:
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Software Requirements](#software_requirements)
-3. [Folder Structure](#folder_structure)
-4. [Getting Started](#getting_started)
-5. [Running APP](#running_app)
-    1. [Detect Humans Face](#detect_humans_face)
+3. [Getting Started](#getting_started)
+4. [Folder Structure](#folder_structure)
+5. [Running the Jupyter Notebook](#running_jpynb)
+    1. [Execution of the preprocessing_CNN.py file](#running_preprocessing)
     2. [Classify Dog Breeds](#classify_dog_breeds)
 6. [Project Results](#project_results)    
 7. [Authors](#authors)
@@ -57,9 +57,23 @@ Please run ```pip install -r requirements.txt```
 
 
 
+<a name="getting_started"></a>
+
+## Getting Started
+
+1. Make sure Python 3 is installed.
+2. Clone the repository and navigate to the project's root directory in the terminal
+3. Download the [cats dataset](https://github.com/MFuchs1989/Datasets-and-Miscellaneous/tree/main/datasets/Computer%20Vision/Convolutional%20Neural%20Network/cats). Unzip the folder and place the images in the cloned repository in the folder ```cats```. If the folder does not exist yet, please create one. 
+4. Download the [dogs dataset](https://github.com/MFuchs1989/Datasets-and-Miscellaneous/tree/main/datasets/Computer%20Vision/Convolutional%20Neural%20Network/dogs). Unzip the folder and place the images in the cloned repository in the folder ```dogs```. If the folder does not exist yet, please create one. 
+5. Start the notebook ```Computer Vision - CNN for binary Classification.ipynb```.
+
+
+
 <a name="folder_structure"></a>
 
 ## Folder Structure
+
+The current folder structure should look like this:
 
 ```
 C:.
@@ -72,31 +86,18 @@ C:.
 ```
 
 
-<a name="getting_started"></a>
+<a name="running_jpynb"></a>
 
-## Getting Started
-
-1. Make sure Python 3 is installed.
-2. Clone the repository and navigate to the project's root directory in the terminal
-3. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip). Unzip the folder and place the three files (test, train and valid) in the cloned repository in the folder ```data/dog_images```. If one of these folders does not yet exist, please create it manually. 
-4. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip). Unzip the folder and place it in the cloned repository in the folder ```data/lfw```. If one of these folders does not yet exist, please create it manually. 
-5. Download the [VGG-19](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG19Data.npz) and [InceptionV3](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz) bottleneck features and place them in the cloned repository in the folder ```bottleneck_features```. If this folder does not yet exist, please create it manually. 
-6. Start the notebook ```dog_app.ipynb```.
+## Running the Jupyter Notebook
 
 
+<a name="running_preprocessing"></a>
 
-<a name="running_app"></a>
+### Execution of the preprocessing_CNN.py file
 
-## Running APP
+Import all necessary libraries and execute the train-validation-test-split function.
 
-
-<a name="detect_humans_face"></a>
-
-### Detect Humans Face
-
-I used OpenCV's implementation of [Haar feature-based cascade classifiers](https://docs.opencv.org/master/d7/d8b/tutorial_py_face_detection.html) to detect human faces in images.
-
-![pic_readme1](images/pic_readme1.png)
+![result_py_file](images/result_py_file.png)
 
 
 <a name="classify_dog_breeds"></a>
