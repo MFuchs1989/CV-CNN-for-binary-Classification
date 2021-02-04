@@ -97,6 +97,8 @@ C:.
 
 Import all necessary libraries and execute the train-validation-test-split function.
 
+Here is the output of the function:
+
 ![result_py_file](images/result_py_file.png)
 
 
