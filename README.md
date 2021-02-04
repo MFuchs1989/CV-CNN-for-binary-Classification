@@ -109,7 +109,7 @@ Here is the output of the function:
 
 Execute all remaining lines of code in the notebook.
 
-#### Descriptive statistics
+**Descriptive statistics**
 
 ![statistics1](images/statistics1.png)
 
